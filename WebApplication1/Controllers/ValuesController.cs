@@ -13,6 +13,7 @@ namespace WebApplication1.Controllers
         
         // GET api/values
 
+        public int add(int x,int y) { return x + y; }
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
