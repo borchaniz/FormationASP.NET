@@ -17,6 +17,7 @@ namespace UnitTestProject1
             //Assert 
             Assert.AreEqual(r, 7);
         }
+        [TestMethod]
         public void TestMethod2()
         {
             //Arrange
